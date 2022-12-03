@@ -11,13 +11,13 @@ public class MadlibsOfTheAmazon {
 		// Get the player to enter an adjective
 		String adj = JOptionPane.showInputDialog("enter adjective");
 		// Get the player to enter a type of liquid
-		String water = JoptionPane.
+		String liquid = JOptionPane.showInputDialog("enter liquid");
 		// Get the player to enter a body part
-
+		String bodyPart = JOptionPane.showInputDialog("enter Body Part");
 		// Get the player to enter a verb
-
+		String verb = JOptionPane.showInputDialog("enter verb");
 		// Get the player to enter a place
-
+		String place = JOptionPane.showInputDialog("enter place");
 		// The story below has has been written as a group of Strings joined together by + signs.
 		// The story contains place holders, indicated by [** **] which you need to replace with
 		// the values entered by the player.
@@ -32,8 +32,8 @@ public class MadlibsOfTheAmazon {
 		
 		// Make a pop-up that contains the final story. The \n escape characters add line breaks to the story. 
 		// If you need to, move them around to make your story look better in the pop-up
-		
+		JOptionPane.showMessageDialog(null, story);
 		// If you want to write your own Madlib story, just change the story variable and ask the player different questions.
-
+		
 	}
 }
