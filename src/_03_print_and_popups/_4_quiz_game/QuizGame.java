@@ -1,14 +1,19 @@
 package _03_print_and_popups._4_quiz_game;
 
+import javax.swing.JOptionPane;
+
 public class QuizGame {
 	public static void main(String[] args) {
 		
 		// Create a variable to hold the user's score. Set it equal to zero. 
-		
+		int score = 0;
 		// ASK A QUESTION AND CHECK THE ANSWER
-		
+		String response = JOptionPane.showInputDialog("how may states are in the U.S"); 
 				// 2.  Ask the user a question 
-				
+				if(response.equals("50")) {
+					score = score + 1;
+						String response = JOptionPane.showInputDialog("Nice!");
+				}
 				// 3.  Use an if statement to check if their answer is correct
 				
 				// 4.  if the user's answer was correct, add one to their score 
