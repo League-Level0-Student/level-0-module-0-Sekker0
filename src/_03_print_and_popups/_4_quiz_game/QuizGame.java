@@ -12,10 +12,10 @@ public class QuizGame {
 				// 2.  Ask the user a question 
 				if(response.equals("50")) {
 					score = score + 1;
-						String response = JOptionPane.showInputDialog("Nice!"){
+						String answer = JOptionPane.showInputDialog("Nice!");
 				}
 				// 3.  Use an if statement to check if their answer is correct
-				}
+				
 	
 				// 4.  if the user's answer was correct, add one to their score 
 		
