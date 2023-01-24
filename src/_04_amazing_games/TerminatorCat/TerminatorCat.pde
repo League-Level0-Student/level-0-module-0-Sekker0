@@ -12,7 +12,8 @@
 PImage cat;
 int x=206;
 int y=315;
-
+int p=408;
+int m=318;
 void setup() {
   
 // 2. The code below loads your cat picture into the program. 
@@ -54,6 +55,7 @@ fill (200,0,0);
 //                  The ellipse command looks like this:
                 
                 ellipse(x, y, 50, 50);
+                 ellipse(p, m, 50, 50);
 // Run the program to make sure it is in the right place and is the right size.
 }
 
@@ -63,15 +65,18 @@ fill (200,0,0);
 void keyPressed() {
     x+=7;
     y+=7;
-    
+    p+=7;
+    m+=7;
 // 12.  If you want them to go faster, add more than one each time the key is pressed    
 }
- 
+ //ok
 
 //13.   Now make the cat shoot lasers from the other eye.
 //      You will need to click the mouse on the other eye to figure our where to draw the other circle
 //      Use offsets from the other eye so that you don’t need to make a second set of coordinates.
 //      e.g. ellipse(x+220, y-50, 50, 50);
+
+
 
 //14.  Set the laser back to the beginning when it goes off the screen.
 //     You will need  an if statement to check when x > width 
